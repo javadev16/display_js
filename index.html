@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h1>Gastos</h1>	
+<p id="gastos">Gastos!</p>
+<script>
+const gastos1 =["caja", "comparta", "room", "entel", "food"];
+document.getElementById("gastos").innerHTML = gastos1;
+</script>
+<p id="demo"></p>
+
+<script>
+var fruits, text, fLen, i;
+fruits = ["caja", "comparta", "room", "food","entel"];
+fLen = fruits.length;
+
+text = "<ul>";
+for (i = 0; i < fLen; i++) {
+  text += "<li>" + fruits[i] + "</li>";
+}
+text += "</ul>";
+
+document.getElementById("demo").innerHTML = text;
+</script>
+
+<script type="text/javascript">
+let total = 0;
+
+for (let i=0; i < 5; i++) {
+	//console.log(i);
+	total += i;
+}
+//console.log(total);
+//con arrays
+let total1 = 0;
+let numArray = [10, 45, 10, 35]
+//console.log(numArray);
+for (let i=0; i < numArray.length; i++) {
+	//console.log(numArray[i]);
+	total1 += numArray[i];
+}
+//console.log(total1);
+
+const gastos =["caja", "comparta", "room", "entel", "food"];
+console.log(gastos);
+</script>
+<h3>Total Gastos y gastos</h3>
+<p id="demo1"></p>
+<script>
+let total2 = 0;
+
+let numArray1 = [694.2, 106.5, 250, 55, 500]
+console.log(numArray1);
+document.write(numArray1);
+let texto = "Total Gastos";
+console.log(texto);
+for (let i=0; i < numArray1.length; i++) {
+	//console.log(numArray[i]);
+	total2 += numArray1[i];
+
+}
+document.getElementById("demo1").innerHTML = total2;
+console.log(total2);
+</script>
+
+<p></p>
+<script>
+	let releasedDate;
+releasedDate = "July, 13th, 2020";
+console.log(releasedDate);
+let daya;
+daya = 24;
+console.log(daya);
+</script>	
+
+</body>
+</html>
